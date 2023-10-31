@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/fileRead.js",
     "test": "mocha test_case/**/*.spec.js",
-    "test_report": "mocha test_case/**/*.spec.js --reporter mochawesome --require mochawesome/register"
+    "test_report": "mocha test_case/**/*.spec.js --reporter mochawesome --reporter-options reportDir=testCaseReport --require mochawesome/register"
   },
   "keywords": [
     "node js"
