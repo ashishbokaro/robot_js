@@ -1,0 +1,19 @@
+
+we need a control system for the robot that  inhabit our 100 by 100 grid world. the coordinate of our world are 0 based and the world warps so grid coodinate 0 and 99 are adjecent. The origin bottom left
+
+Initial location
+
+Each robot start with a simple compass heading N,S,E,W and grid coordinate X,Y.
+The Commands
+The robot is controlled with a set of simple commands.
+M - Move Forward
+L - Rotate 90 left
+R - Rotate 90 right 
+Each command may  be followed by a number by a number  from 1-100.which indicate the number of times to perform the action. Absence of a number is equivalent to 1
+The input 
+A single file is used for input.The first line of the initial position, the second is the sequence of commands.Additional line are ignored
+output
+the control system should print the final position of the robot to std out
+Example
+N 0 0
+M1RM4L3M2

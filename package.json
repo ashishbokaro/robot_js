@@ -1,0 +1,21 @@
+{
+  "name": "coding",
+  "version": "1.0.0",
+  "description": "robot movement",
+  "main": "src/fileRead.js",
+  "scripts": {
+    "start": "node src/fileRead.js",
+    "test": "mocha test_case/**/*.spec.js",
+    "test_report": "mocha test_case/**/*.spec.js --reporter mochawesome --require mochawesome/register"
+  },
+  "keywords": [
+    "node js"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3"
+  }
+}

@@ -1,0 +1,10 @@
+0.) initial Position: N 0 0 and command is => M1RM4L3M2 => Final Position: S 4 99
+
+1.) initial Position: S 0 0 and command is => M1RM4L3M3 => Final Position: N 96 2
+
+2.) initial Position: E 0 0 and command is => M1RM4LR13M3 => Final Position: S 1 93
+
+3.) initial Position: W 10 12 and command is => M1RM4LR13M3 => Final Position: N 9 19
+
+4.) initial Position: E 10 12 and command is => M1RM4LR13M3 => Final Position: S 11 5
+
